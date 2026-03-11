@@ -1,0 +1,21 @@
+{
+  "name": "titans-pantai-timur",
+  "compatibility_date": "2026-03-11",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "titanspantaitimur.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.titanspantaitimur.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./public"
+  },
+  "build": {
+    "command": "rm -rf public && mkdir -p public/assets && cp index.html styles.css script.js public/ && cp -R assets/. public/assets/"
+  }
+}
