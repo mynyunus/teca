@@ -874,12 +874,18 @@ ol {
   margin: var(--space-2) 0 0;
   padding: 0.42rem 0.72rem;
   border-radius: 0.75rem;
-  border: 1px solid rgba(18, 183, 106, 0.55);
-  background: linear-gradient(135deg, rgba(18, 183, 106, 0.26), rgba(18, 183, 106, 0.12));
+  border: 1px solid rgba(225, 29, 46, 0.55);
+  background: linear-gradient(135deg, rgba(225, 29, 46, 0.24), rgba(225, 29, 46, 0.1));
   font-size: clamp(0.98rem, 1.4vw, 1.08rem);
   font-weight: 800;
-  color: #eafff3;
+  color: #ffe8eb;
   letter-spacing: 0.01em;
+}
+
+.program-fee-free {
+  border-color: rgba(18, 183, 106, 0.55);
+  background: linear-gradient(135deg, rgba(18, 183, 106, 0.26), rgba(18, 183, 106, 0.12));
+  color: #eafff3;
 }
 
 .duration {
