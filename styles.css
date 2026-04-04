@@ -733,6 +733,12 @@ ol {
   color: #fff;
 }
 
+.framework-infographic-overview {
+  margin: 0 0 var(--space-3);
+  color: #d8d8d8;
+  max-width: 64ch;
+}
+
 .framework-flow {
   display: grid;
   gap: var(--space-4);
@@ -868,11 +874,11 @@ ol {
   margin: var(--space-2) 0 0;
   padding: 0.42rem 0.72rem;
   border-radius: 0.75rem;
-  border: 1px solid rgba(225, 29, 46, 0.55);
-  background: linear-gradient(135deg, rgba(225, 29, 46, 0.24), rgba(225, 29, 46, 0.1));
+  border: 1px solid rgba(18, 183, 106, 0.55);
+  background: linear-gradient(135deg, rgba(18, 183, 106, 0.26), rgba(18, 183, 106, 0.12));
   font-size: clamp(0.98rem, 1.4vw, 1.08rem);
   font-weight: 800;
-  color: #ffe8eb;
+  color: #eafff3;
   letter-spacing: 0.01em;
 }
 
@@ -1264,6 +1270,56 @@ ol {
 .gallery-toggle-btn:focus-visible {
   outline: 2px solid rgba(255, 255, 255, 0.82);
   outline-offset: 2px;
+}
+
+.form-embed {
+  padding-top: var(--space-12);
+}
+
+.form-embed .section-heading {
+  max-width: 100%;
+}
+
+.form-embed .section-heading h2 {
+  letter-spacing: 0.01em;
+  font-size: clamp(1.2rem, 3.5vw, 2rem);
+}
+
+.form-embed .section-heading p {
+  margin-bottom: 0;
+  color: #f6c8ce;
+  font-style: italic;
+}
+
+.form-embed-shell {
+  padding: var(--space-6);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background:
+    radial-gradient(circle at top right, rgba(225, 29, 46, 0.2), rgba(225, 29, 46, 0) 56%),
+    #111;
+  display: grid;
+  justify-items: center;
+  gap: var(--space-4);
+  text-align: center;
+}
+
+.form-embed-copy {
+  margin: 0;
+  max-width: 62ch;
+  color: #ececec;
+}
+
+.form-embed-cta {
+  min-width: 220px;
+  font-size: 1rem;
+  padding: 0.82rem 1.35rem;
+  box-shadow: 0 12px 28px rgba(225, 29, 46, 0.32);
+}
+
+.form-embed-cta:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.06);
 }
 
 .contact-card h3 {
